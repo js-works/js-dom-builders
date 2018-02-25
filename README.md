@@ -1,6 +1,6 @@
 # js-dom-factories
 *js-dom-factories* provides some helper functions for creating virtual
-DOM elements. It's a simple alternative to JSX.<br>
+DOM elements. It's some kind of simple alternative to JSX.<br>
 
 Currently adapters for the following UI libraries are available:
 
@@ -42,13 +42,13 @@ npm install --save js-dom-factories
 
 ```javascript
 // If you want to use js-dom-factories for React or React Native
-import h from 'js-dom-factories/react';
+import { Html, Svg } from 'js-dom-factories/react';
 
 // If you want to use js-dom-factories for DIO 
-import h from 'js-dom-factories/dio';
+import { Html, Svg } from 'js-dom-factories/dio';
 
 // If you want to use js-dom-factories to generate universal UI elements
-import h from 'js-dom-factories/universal';
+import { Html, Svg } from 'js-dom-factories/universal';
 ```
 
 ### Example
